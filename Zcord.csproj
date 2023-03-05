@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>zcord-logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\animedly-logo.png" />
+    <None Remove="Icons\cord-big.png" />
+    <None Remove="Icons\cord-nobg.png" />
+    <None Remove="Icons\cord.png" />
+    <None Remove="Icons\e-girl.jpg" />
+    <None Remove="Icons\group.png" />
+    <None Remove="Icons\ice-bear.png" />
+    <None Remove="Icons\loadingBanner.png" />
+    <None Remove="Icons\send_BTN.png" />
+    <None Remove="Icons\upload_Btn.png" />
+    <None Remove="MVVM\View\loadingBanner.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Icons\animedly-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\cord-big.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\cord-nobg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\cord.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\e-girl.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\group.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\ice-bear.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\send_BTN.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\upload_Btn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zcord-logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\loadingBanner.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="MVVM\View\loadingBanner.png" />
+  </ItemGroup>
+
+</Project>
